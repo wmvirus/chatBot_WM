@@ -74,6 +74,7 @@ if API_O:
         temperature=0,
         openai_api_key=API_O,
         model_name=MODEL,
+        request_timeout=120,
         verbose=False
     )
 
